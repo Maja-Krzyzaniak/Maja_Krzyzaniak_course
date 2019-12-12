@@ -10,11 +10,12 @@ int main() {
 	cout << endl;
 
 	//get a quess from the player
-	cout << "Enter your guess";
+	cout << "Enter your guess ";
 	string Guess = "";
 	cin >> Guess;
 	cout << endl;
 	//repeat the quess back to them
+	cout << "Your guess was " << Guess << endl;
 
 	system("pause");
 	return 0;
