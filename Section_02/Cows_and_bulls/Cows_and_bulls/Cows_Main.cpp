@@ -12,11 +12,17 @@ int main() {
 	//get a quess from the player
 	cout << "Enter your guess ";
 	string Guess = "";
-	cin >> Guess;
-	cout << endl;
+	getline (cin,Guess);
+
 	//repeat the quess back to them
 	cout << "Your guess was " << Guess << endl;
 
+	//get a quess from the player
+	cout << "Enter your guess ";
+	getline(cin, Guess);
+
+	//repeat the quess back to them
+	cout << "Your guess was " << Guess << endl;
 	system("pause");
 	return 0;
 }
