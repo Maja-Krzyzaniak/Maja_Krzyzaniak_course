@@ -18,7 +18,7 @@ int main()
 		cout << endl;
 	}
 
-	return 0;
+	return 0;// exit the application
 }
 void PrintIntro()
 {
